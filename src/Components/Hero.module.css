@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 92vh;
+    width: 100%;
+    background-image: url('../assets/asset%202.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* align-items: center; */
+}
+
+.details{
+    height: 30vh;
+    width: 33%;
+    margin-left: 10%;
+    margin-top: 150px;
+    color: black;
+}
+.details p{
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.red{
+    color: rgb(206, 0, 0);
+}
+.btn1{
+    color: white;
+    background-color: rgb(206, 0, 0);
+}
+.btn2{
+    color: rgb(206, 0, 0);
+    background-color: white;
+}
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    width: 100%;
+}
+.imageHome{
+    height: 600px;
+    width: 750px;
+    position: absolute;
+    top: 850px;
+    left: 50px;
+}
+.cont2inner{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(103, 93, 241, 0.138);
+    padding: 50px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%; /* Adjust to make cards responsive */
+    min-width: 300px;
+  }
+  
+.text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+.container3 strong {
+    display: block;
+    font-weight: bold;
+  }
+  
+.container3  p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }

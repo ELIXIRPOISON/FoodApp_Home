@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.645);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.text{
+    width: 400px;
+}
+.container ul{
+    display: flex;
+    gap: 40px;
+}
+.container ul li {
+    list-style: none;
+    font-weight: 800;
+}
+
+.imageFooter{
+    height: 100px;
+    width: 150px;
+}
